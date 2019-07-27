@@ -10,6 +10,8 @@ Dependencies:
 
 * `urllib3 <https://pypi.python.org/pypi/urllib3>`_
 
+**NOTE: While my work is distributed under the Apache 2.0 license, Geocodio, Pandas, and Shapely are distributed under the BSD license, urllib3 is distributed under the MIT license, and SimpleKML is distributed under LGPL v3+. It is incumbent on the end user to acquire the packages, and, if doing any sort of bundling/static linking, determining if the more restrictive components can be included as-is.**
+
 How to use 811-geocoder:
 ************************
 1. Create a CSV containing the addresses you wish to plot, and request numbers - column names "request no" and "address".
